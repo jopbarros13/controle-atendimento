@@ -1,0 +1,21 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Tab 2
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+ <ion-card>
+  <ion-card-content>
+    <ion-list>
+      <ion-item>Próxima Senha: {{senhasService.proximoCliente()}}</ion-item>
+
+    </ion-list>
+    
+  </ion-card-content>
+ </ion-card>
+
+  <app-explore-container></app-explore-container>
+</ion-content>
